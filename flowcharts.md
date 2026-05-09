@@ -83,10 +83,7 @@ flowchart TD
     
     %% Admin: Logout
     AdminMenu -->|Logout| LogoutAdmin[Logout] ::: login
-    LogoutAdmin --> EndSession
-```
-
-### Color Legend:
+    LogoutAdmin --> EndSession### Color Legend:
 * **Green `(Pills)`**: Start and End of the session.
 * **Blue `(Diamonds/Rectangles)`**: Authentication events (Login, Role Check, Logout).
 * **Purple `(Rectangles)`**: Main Dashboard Hubs.
